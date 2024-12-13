@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="calc-body">
+            <input type="text" id="calcdisplay">
+            <div class="row">
+                <button onclick="btnclick(7)" class="calc-btn">7</button>
+                <button onclick="btnclick(8)" class="calc-btn">8</button>
+                <button onclick="btnclick(9)" class="calc-btn">9</button>
+                <button onclick="btnclear()" class="calc-clear-btn">C</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick(4)" class="calc-btn">4</button>
+                <button onclick="btnclick(5)" class="calc-btn">5</button>
+                <button onclick="btnclick(6)" class="calc-btn">6</button>
+                <button onclick="btnclick('-')" class="calc-btn">-</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick(1)" class="calc-btn">1</button>
+                <button onclick="btnclick(2)" class="calc-btn">2</button>
+                <button onclick="btnclick(3)" class="calc-btn">3</button>
+                <button onclick="btnclick('+')" class="calc-btn">+</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick('/')" class="calc-btn">/</button>
+                <button onclick="btnclick(0)" class="calc-btn">0</button>
+                <button onclick="btnclick('*')" class="calc-btn">*</button>
+                <button onclick="equalclick()" class="calc-btn">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
